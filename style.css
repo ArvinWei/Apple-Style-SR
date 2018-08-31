@@ -46,15 +46,14 @@ div {
 }
 .images > img.current{
 	left: 0;
-	transform: translateX(0);
 	z-index: 1;
 }
 .images > img.leave{
-	transform: translateX(-150%);
+    left: -100%;
 	z-index: 1;
 }
 .images > img.enter{
-	transform: translateX(150%);
+	left:100%;
 }
 #menu{
 	height: 45px;
